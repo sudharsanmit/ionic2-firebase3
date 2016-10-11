@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Lights
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>Drawing Room</ion-label>
+      <ion-toggle [checked]="(drawingRoom | async)?.status" (ionChange)="toggleLights($event)"></ion-toggle>    
+    </ion-item>
+  </ion-list>
+  <ion-list>
+  <!--<h1>{{ (item | async)?.name }}</h1>-->
+  </ion-list>
+</ion-content>

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "../node_modules/@types/**"
+    ],
+    "types": [
+      "firebase"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "outDir": "C:\\Users\\TCS Profile\\Desktop\\Sudharsan\\progressive\\ionic\\ionic2.0-angularfire\\.tmp"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "include": [
+    "C:\\Users\\TCS Profile\\Desktop\\Sudharsan\\progressive\\ionic\\ionic2.0-angularfire\\src\\app\\main.dev.ts",
+    "C:\\Users\\TCS Profile\\Desktop\\Sudharsan\\progressive\\ionic\\ionic2.0-angularfire\\src\\**\\*.d.ts"
+  ]
+}
